@@ -1,7 +1,7 @@
 {
   "name": "manifest-filerev",
   "version": "1.0.0",
-  "description": "Generate manifest data for file rev",
+  "description": "Generate manifest data for file revisioning",
   "main": "index.js",
   "author": "Kyohei Yazawa <kyoheiyazawa@gmail.com>",
   "license": "ISC",
