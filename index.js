@@ -6,9 +6,6 @@ const revPath = require('rev-path');
 function getManifest (filepaths, baseDir, hashLen) {
     const revManifest = {};
     return Promise.all(filepaths.map((filepath) => {
-        if (typeof filepath !== 'string') {
-            throw new TypeError('Expected a string');
-        }
         return hasha.fromFile(filepath, {algorithm: 'md5'})
             .then(hash => revPath(filepath, hash.slice(0, hashLen)))
             .then((revfilePath) => {
