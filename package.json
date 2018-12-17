@@ -1,0 +1,17 @@
+{
+  "name": "manifest-filerev",
+  "version": "1.0.0",
+  "description": "Generate manifest data for file rev",
+  "main": "index.js",
+  "author": "Kyohei Yazawa <kyoheiyazawa@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "glob": "^7.1.3",
+    "hasha": "^3.0.0",
+    "rev-path": "^2.0.0"
+  }
+}
